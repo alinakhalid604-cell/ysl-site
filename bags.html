@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bags</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <img src="logo.jpg" alt="Logo" class="product-image">
+  <nav>
+      <a href="bags.html">Bags</a>
+      <a href="makeup.html">Makeup</a>
+      <a href="heels.html">Heels</a>
+      <a href="perfumes.html">Perfumes</a>
+      <a href="cart.html">Cart 🛒 <span id="cart-count">0</span></a>
+      <button onclick="toggleDarkMode()">🌙</button>
+  </nav>
+
+  <input type="text" id="search" placeholder="Search products..." onkeyup="searchProducts()">
+
+</header>
+
+  <div class="gallery">
+  <div class="product-container">
+   <picture>
+  <source srcset="bag1.jpeg" type="image/jpeg">
+   <img src="bag1.jpeg" alt="Bag 1" class="product-image">
+</picture>
+  <h4>Bag 1</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Bag 1')">Add to Cart</button>
+  </div>
+
+  <div class="product-container">
+   <picture>
+  <source srcset="bag2.jpeg" type="image/jpeg">
+   <img src="bag2.jpeg" alt="Bag 2" class="product-image">
+</picture>
+  <h4>Bag 2</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Bag 2')">Add to Cart</button>
+  </div>
+
+  <div class="product-container">
+   <picture>
+  <source srcset="bag3.jpg" type="image/jpg">
+   <img src="bag3.jpg" alt="Bag 3" class="product-image">
+</picture>
+  <h4>Bag 3</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Bag 3')">Add to Cart</button>
+  </div>
+
+  <div class="product-container">
+   <picture>
+  <source srcset="bag4.webp" type="image/webp">
+   <img src="bag4.webp" alt="Bag 4" class="product-image">
+</picture>
+  <h4>Bag 4</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Bag 4')">Add to Cart</button>
+  </div>
+
+  <div class="product-container">
+   <picture>
+  <source srcset="bag5.jpg" type="image/jpg">
+   <img src="bag5.jpg" alt="Bag 5" class="product-image">
+</picture>
+  <h4>Bag 5</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Bag 5')">Add to Cart</button>
+  </div>
+
+  <div class="product-container">
+   <picture>
+  <source srcset="bag6.jpeg" type="image/jpeg">
+   <img src="bag6.jpeg" alt="Bag 6" class="product-image">
+</picture>
+  <h4>Bag 6</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Bag 6')">Add to Cart</button>
+  </div>
+
+  <div class="product-container">
+   <picture>
+  <source srcset="bag7.jpeg" type="image/jpeg">
+   <img src="bag7.jpeg" alt="Bag 7" class="product-image">
+</picture>
+  <h4>Bag 7</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Bag 7')">Add to Cart</button>
+  </div>
+
+  <div class="product-container">
+   <picture>
+  <source srcset="bag8.webp" type="image/webp">
+   <img src="bag8.webp" alt="Bag 8" class="product-image">
+</picture>
+  <h4>Bag 8</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Bag 8')">Add to Cart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

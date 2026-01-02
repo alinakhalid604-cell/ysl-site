@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Heels</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" alt="Logo" class="product-image">
+    <nav>
+       <a href="bags.html">Bags</a>
+       <a href="makeup.html">Makeup</a>
+       <a href="heels.html">Heels</a>
+       <a href="perfumes.html">Perfumes</a>
+       <a href="cart.html">Cart 🛒 <span id="cart-count">0</span></a>
+       <button onclick="toggleDarkMode()">🌙</button>
+    </nav>
+
+    <input type="text" id="search" placeholder="Search products..." onkeyup="searchProducts()">
+
+  </header>
+
+  <div class="gallery">
+  <div class="product-container">
+   <picture>
+  <source srcset="heel1.webp" type="image/webp">
+   <img src="heel1.webp" alt="heel 1" class="product-image">
+</picture>
+  <h4>Heel 1</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Heel  1')">Add to Cart</button>
+  </div>
+
+<div class="product-container">
+   <picture>
+  <source srcset="heel2.jpeg" type="image/jpeg">
+   <img src="heel2.jpeg" alt="Heel 2" class="product-image">
+</picture>
+  <h4>Heel 2</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Heel  2')">Add to Cart</button>
+  </div>
+
+<div class="product-container">
+   <picture>
+  <source srcset="heel3.webp" type="image/webp">
+   <img src="heel3.webp" alt="heel 3" class="product-image">
+</picture>
+  <h4>Heel 3</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Heel  3')">Add to Cart</button>
+  </div>
+
+<div class="product-container">
+   <picture>
+  <source srcset="heel4.jpeg" type="image/jpeg">
+   <img src="heel4.jpeg" alt="Heel 4" class="product-image">
+</picture>
+  <h4>Heel 4</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Heel  4')">Add to Cart</button>
+  </div>
+
+<div class="product-container">
+   <picture>
+  <source srcset="heel5.webp" type="image/webp">
+   <img src="heel5.webp" alt="heel 5" class="product-image">
+</picture>
+  <h4>Heel 5</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Heel  5')">Add to Cart</button>
+  </div>
+
+<div class="product-container">
+   <picture>
+  <source srcset="heel6.webp" type="image/webp">
+   <img src="heel6.webp" alt="heel 6" class="product-image">
+</picture>
+  <h4>Heel 6</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Heel  6')">Add to Cart</button>
+  </div>
+
+<div class="product-container">
+   <picture>
+  <source srcset="heel7.jpg" type="image/jpg">
+   <img src="heel7.jpg" alt="Heel 7" class="product-image">
+</picture>
+  <h4>Heel 7</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Heel  7')">Add to Cart</button>
+  </div>
+
+<div class="product-container">
+   <picture>
+  <source srcset="heel8.jpeg" type="image/jpeg">
+   <img src="heel8.jpeg" alt="Heel 8" class="product-image">
+</picture>
+  <h4>Heel 8</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Heel  8')">Add to Cart</button>
+  </div>
+
+<script src="script.js"></script> 
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Makeup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+      <img src="logo.jpg" alt="Logo" class="product-image">
+    <nav>
+       <a href="bags.html">Bags</a>
+       <a href="makeup.html">Makeup</a>
+       <a href="heels.html">Heels</a>
+       <a href="perfumes.html">Perfumes</a>
+       <a href="cart.html">Cart 🛒 <span id="cart-count">0</span></a>
+       <button onclick="toggleDarkMode()">🌙</button>
+</nav>
+
+<input type="text" id="search" placeholder="Search products..." onkeyup="searchProducts()">
+
+  </header>
+
+  <div class="gallery">
+  <div class="product-container">
+   <picture>
+  <source srcset="blush.webp" type="image/webp">
+   <img src="blush.webp" alt="Blush" class="product-image">
+</picture>
+  <h4>Blush</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Blush')">Add to Cart</button>
+  </div>
+
+  <div class="product-container">
+   <picture>
+  <source srcset="concealer.webp" type="image/webp">
+   <img src="concealer.webp" alt="Concealer" class="product-image">
+</picture>
+  <h4>Concealer</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Concealer')">Add to Cart</button>
+  </div>
+
+<div class="product-container">
+   <picture>
+  <source srcset="eyeliner.jpg" type="image/jpg">
+   <img src="eyeliner.jpg" alt="Eyeliner" class="product-image">
+</picture>
+  <h4>Eyeliner</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Eyeliner')">Add to Cart</button>
+  </div>
+
+  <div class="product-container">
+   <picture>
+  <source srcset="eyepalette.webp" type="image/webp">
+   <img src="eyepalette.webp" alt="Eyepalette" class="product-image">
+</picture>
+  <h4>Eyepalette</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Eyepalette')">Add to Cart</button>
+  </div>
+
+  <div class="product-container">
+   <picture>
+  <source srcset="foundation.webp" type="image/webp">
+   <img src="foundation.webp" alt="Foundation" class="product-image">
+</picture>
+  <h4>Foundation</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Foundation')">Add to Cart</button>
+  </div>
+
+  <div class="product-container">
+   <picture>
+  <source srcset="lipstick.webp" type="image/webp">
+   <img src="lipstick.webp" alt="Lipstick" class="product-image">
+</picture>
+  <h4>Lipstick</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Lipstick')">Add to Cart</button>
+  </div>
+
+<div class="product-container">
+   <picture>
+  <source srcset="makeupremover.jpeg" type="image/jpeg">
+   <img src="makeupremover.jpeg" alt="makeup Remover" class="product-image">
+</picture>
+  <h4>Makeup Remover</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Makeup Remover')">Add to Cart</button>
+  </div>
+
+<div class="product-container">
+   <picture>
+  <source srcset="mascara.jpeg" type="image/jpeg">
+   <img src="mascara.jpeg" alt="Mascara" class="product-image">
+</picture>
+  <h4>Mascara</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Mascara')">Add to Cart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

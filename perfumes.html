@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Perfumes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" alt="Logo" class="product-image">
+    <nav>
+       <a href="bags.html">Bags</a>
+       <a href="makeup.html">Makeup</a>
+       <a href="heels.html">Heels</a>
+       <a href="perfumes.html">Perfumes</a>
+       <a href="cart.html">Cart 🛒 <span id="cart-count">0</span></a>
+       <button onclick="toggleDarkMode()">🌙</button>
+    </nav>
+
+<input type="text" id="search" placeholder="Search products..." onkeyup="searchProducts()">
+
+  </header>
+
+  <div class="gallery">
+  <div class="product-container">
+   <picture>
+  <source srcset="perfume1.webp" type="image/webp">
+   <img src="perfume1.webp" alt="Perfume 1" class="product-image">
+</picture>
+  <h4>Perfume 1</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Perfume  1')">Add to Cart</button>
+  </div>
+
+  <div class="product-container">
+   <picture>
+  <source srcset="perfume2.jpeg" type="image/jpeg">
+   <img src="perfume2.jpeg" alt="Perfume 2" class="product-image">
+</picture>
+  <h4>Perfume 2</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Perfume  2')">Add to Cart</button>
+  </div>
+
+<div class="product-container">
+   <picture>
+  <source srcset="perfume3.jpeg" type="image/jpeg">
+   <img src="perfume3.jpeg" alt="Perfume 3" class="product-image">
+</picture>
+  <h4>Perfume 3</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Perfume  3')">Add to Cart</button>
+  </div>
+
+<div class="product-container">
+   <picture>
+  <source srcset="perfume4.jpeg" type="image/jpeg">
+   <img src="perfume4.jpeg" alt="Perfume 4" class="product-image">
+</picture>
+  <h4>Perfume 4</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Perfume  4')">Add to Cart</button>
+  </div>
+
+<div class="product-container">
+   <picture>
+  <source srcset="perfume5.webp" type="image/webp">
+   <img src="perfume5.webp" alt="Perfume 5" class="product-image">
+</picture>
+  <h4>Perfume 5</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Perfume  5')">Add to Cart</button>
+  </div>
+
+<div class="product-container">
+   <picture>
+  <source srcset="perfume6.webp" type="image/webp">
+   <img src="perfume6.webp" alt="Perfume 6" class="product-image">
+</picture>
+  <h4>Perfume 6</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Perfume  6')">Add to Cart</button>
+  </div>
+
+<div class="product-container">
+   <picture>
+  <source srcset="perfume7.webp" type="image/webp">
+   <img src="perfume7.webp" alt="Perfume 7" class="product-image">
+</picture>
+  <h4>Perfume 7</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Perfume  7')">Add to Cart</button>
+  </div>
+
+<div class="product-container">
+   <picture>
+  <source srcset="perfume8.webp" type="image/webp">
+   <img src="perfume8.webp" alt="Perfume 8" class="product-image">
+</picture>
+  <h4>Perfume 8</h4>
+    <p>$10.99</p>
+    <button class="add-to-cart" onclick="addToCart('Perfume  8')">Add to Cart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
